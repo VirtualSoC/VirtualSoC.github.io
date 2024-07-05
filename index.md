@@ -10,6 +10,7 @@
 - [Introduction](#introduction)
 - [Open Source Progress](#open-source-progress)
 
+
 ## Introduction
 
 Emerging mobile applications such as ultra-high-definition (UHD) video streaming, AR/VR, and cloud gaming require accessing diverse hardware such as video codecs, cameras, and image processors. However, today's mobile emulators exhibit poor performance when emulating these *high-throughput* hardware devices. 
@@ -32,6 +33,8 @@ vSoC is adopted by the emulator of a major commercial mobile IDE.
 
 
 ## Open Source Progress
+
+**Update 2024.7.3**: we have obtained permission to release vSoC source code. Since vSoC includes both guest and host-side implementations and involves tens of repositories, we are still re-organizing our codebase to facilitate building.
 
 Currently, we are scrutinizing our codebase for security concerns and following internal procedures for open sourcing code.
 We expect the relevant code and data to be released soon.
