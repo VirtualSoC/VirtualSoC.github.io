@@ -5,6 +5,8 @@
 ![license](https://img.shields.io/badge/Platform-OpenHarmony-green "OpenHarmony")
 ![version](https://img.shields.io/badge/Version-4.0-yellow "4.0")
 
+![license](https://img.shields.io/badge/Hypervisor-QEMU-green "QEMU")
+![version](https://img.shields.io/badge/Version-7.1-yellow "Pie")
 
 ## Table of Contents
 - [Introduction](#introduction)
