@@ -33,6 +33,18 @@ Extensive evaluations show that vSoC achieves significant performance improvemen
 1.7-4.6× frame rates and 35%-62% lower motion-to-photon latency for various multimedia applications.
 vSoC is adopted by the emulator of a major commercial mobile IDE.
 
+## Architecture
+
+The architecture of vSoC is as follows.
+
+![vSoC Full Architecture](img/vsoc_arch_full.jpg)
+
+vSoC is a paravirtualized mobile SoC primarily based upon QEMU 7.1, and hosts Android-x86 9.0, as well as OpenHarmony 4.0. 
+
+The host-side of vSoC is implemented as a single QEMU device, which involves the SVM framework and multiple virtual SoC devices (including GPU, display, ISP, codec, camera and cellular modem) that can be individually turned on or off with command line options.
+
+In the guest, the SVM framework is built into the kernel as a set of kernel modules, and virtual device drivers are built as kernel modules that depend on the framework.
+vSoC also contains a set of userspace drivers for a close integration with mobile OS frameworks.
 
 ## Open Source Progress
 
