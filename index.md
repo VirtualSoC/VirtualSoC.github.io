@@ -10,6 +10,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Architecture](#architecture)
 - [Open Source Progress](#open-source-progress)
 
 
@@ -48,7 +49,7 @@ vSoC also contains a set of userspace drivers for a close integration with mobil
 
 ## Open Source Progress
 
-**Update 2024.7.3**: we have obtained permission to release vSoC source code. Since vSoC includes both guest and host-side implementations and involves tens of repositories, we are still organizing our codebase to facilitate building. We have also begun writing documentation, e.g., [build instructions](build.md).
+**Update 2024.7.3**: we have obtained permission to release vSoC source code. Since vSoC includes both guest and host-side implementations and involves tens of repositories, we are still organizing our codebase to facilitate building. We are also working on documentation, e.g., [build instructions](build.md).
 
 Currently, we are scrutinizing our codebase for security concerns and following internal procedures for open sourcing code.
 We expect the relevant code and data to be released soon.
