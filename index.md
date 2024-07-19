@@ -40,9 +40,9 @@ The architecture of vSoC is as follows.
 
 ![vSoC Full Architecture](img/vsoc_arch_full.jpg)
 
-vSoC is a paravirtualized mobile SoC primarily based upon QEMU 7.1, and hosts Android-x86 9.0, as well as OpenHarmony 4.0. 
+vSoC is a paravirtualized mobile SoC primarily based upon QEMU 7.1, and hosts Android-x86 9.0, as well as OpenHarmony 4.0. As shown in the figure, vSoC involves both host- and guest-side modules and enables virtual devices to collaborate and share data efficiently.
 
-The host-side of vSoC is implemented as a single QEMU device, which involves the SVM framework and multiple virtual SoC devices (including GPU, display, ISP, codec, camera and cellular modem) that can be individually turned on or off with command line options.
+More detailedly, the host-side of vSoC is implemented as a **single** QEMU device, which involves the SVM framework and multiple virtual SoC devices (including GPU, display, ISP, codec, camera and cellular modem) that can be individually turned on or off with command line options.
 
 In the guest, the SVM framework is built into the kernel as a set of kernel modules, and virtual device drivers are built as kernel modules that depend on the framework.
 vSoC also contains a set of userspace drivers for a close integration with mobile OS frameworks.
